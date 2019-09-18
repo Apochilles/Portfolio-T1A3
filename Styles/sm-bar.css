@@ -1,0 +1,60 @@
+
+
+.sm-bar {
+  width: 100px;
+  height: 100%;
+  align-self: flex-end;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.navbar-link {
+  color: black;
+  text-decoration: none;
+  padding: 0px 7px;
+
+}
+.navbar-links {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  float: right; 
+  align-items: center;
+  margin-right: 20px;
+}
+
+.navbar-logo {
+  color: black;
+  height: 150px;
+  font-size: 30px;
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-logo-two {
+  height: 200px;
+  font-size: 30px;
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.navbar-logo-three {
+  height: 260px;
+  font-size: 30px;
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.navbar-link:hover {
+  transform: scale(1.1)
+}
