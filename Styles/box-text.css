@@ -1,3 +1,14 @@
+.about h {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif; 
+
+}
+
+.about p {
+  font-family: 'Raleway', sans-serif; 
+
+}
+
 
 .box-one h {
   font-size: 40px;
@@ -17,13 +28,15 @@ font-family: 'Raleway', sans-serif;
 
 
 
-.box-two h {
-  font-size: 10px;
+.box-two h  {
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif; 
   }
   
   .box-two p {
   font-size: 25px;
   text-align: center;
+
   
   
   }
