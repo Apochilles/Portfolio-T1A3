@@ -16,12 +16,14 @@
 
 .about h {
   font-size: 10px;
-  font-family: 'Raleway', sans-serif; 
+  font-family: 'Roboto Condensed', sans-serif;
+
+ 
 
 }
 
 .about p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 5px;  
 
 }
@@ -30,14 +32,14 @@
 .box-one h {
   font-size: 40px;
   height: 40%;
-  font-family: 'Raleway', sans-serif; 
+  font-family: 'Roboto Condensed', sans-serif;
   padding: 12%;
  
 } 
 .box-one p {
 font-size: 30px;
 text-align: center;
-font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
 padding: 6%;
 
 
@@ -49,7 +51,7 @@ padding: 6%;
 
 .box-two h  {
   font-size: 30px;
-  font-family: 'Raleway', sans-serif; 
+  font-family: 'Roboto Condensed', sans-serif; 
   }
   
   .box-two p {
