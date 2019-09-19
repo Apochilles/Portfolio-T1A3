@@ -3,13 +3,13 @@
 @import "boxes.css";
 @import "container.css";
 @import "sm-bar.css";
+@import "blog.css";
 
 
 
-
-.body{
+body {
   margin: 0px;
-
+  padding: 0px;
 
 }
 

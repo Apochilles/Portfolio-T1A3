@@ -3,7 +3,6 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
-
 }
 
 .container-about {
@@ -12,8 +11,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
+
+.container-contact {
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+
+
 
 .grid {
   width: 80%;
@@ -30,9 +41,12 @@
   background: #EBBAB9;
   width: 80%;
   height: 80%;
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  
+  
   }
   
+  .about img {
+    height: 23%;
+    width: 23%;
+    height: auto;
+  }
