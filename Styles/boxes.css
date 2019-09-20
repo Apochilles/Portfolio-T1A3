@@ -26,10 +26,17 @@
   flex-direction: row;
   align-items: center;
   text-align: center;
-  margin: 5px;
+  /* margin: 5px; */
   padding: 8%;
   
-  
+
+
+}
+
+.box-two div a {
+font-size: 80%;
+
+
 }
 
 .about-box-two{
@@ -57,12 +64,19 @@ justify-content: space-around;
 }
 
 .box-three {
-    
+  
+  height: auto;
+  width: auto;
   grid-row: 1 / span 5;
   grid-column: 3 / span 2;
   background-image: url("../text.jpg");
+  background-size: cover;
 }
 
+.box-three {
+
+resize: 50%;
+}
 
   
     

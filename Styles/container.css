@@ -6,11 +6,11 @@
 }
 
 .container.side {
-flex-direction: unset;
+  flex-direction: unset;
 }
 
 .container-icon.about {
-  height: 100vh;
+  /* height: 100vh; */
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -55,9 +55,9 @@ flex-direction: unset;
 
 .grid {
   width: 80%;
-  height: 50%;
+  height: 100vh;
   display: grid;
-  grid-template-rows: 100px 100px 100px 100px;
+  grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr;
   grid-template-columns: 0.5fr 0.5fr 0.5fr;
   position: center;
   
@@ -78,4 +78,26 @@ flex-direction: unset;
     height: 23%;
     width: 23%;
     height: auto;
+  }
+
+
+
+  .container-description {
+
+    height: 70%;
+    width: 70%;
+  }
+
+  .container-description img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .description{
+
+    height: 50%;
+    width: 50%;
+    background: #EBBAB9;
+    justify-content: space-between 
   }
