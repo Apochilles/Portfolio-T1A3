@@ -5,11 +5,38 @@
   flex-direction: column;
 }
 
-.container-about {
-  height: 50vh;
-  width: 50vw;
+.container.side {
+flex-direction: unset;
+}
+
+.container-icon.about {
+  height: 100vh;
+  width: 100vw;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+}
+
+.container-about {
+  height: 70%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #EBBAB9;
+  margin-left: 30%;
+
+
+}
+
+.container-about-sub {
+  height: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: wrap;
+  align-items: flex-end; 
+  flex-direction: row;
+
+  
 }
 
 .container-contact {
@@ -20,6 +47,8 @@
   align-items: center;
   justify-content: center;
   position: fixed;
+
+
 }
 
 
@@ -37,8 +66,10 @@
 
   .about {
   background: #EBBAB9;
-  width: 80%;
-  height: 80%;
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
   
   
   }

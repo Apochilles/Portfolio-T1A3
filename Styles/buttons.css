@@ -2,7 +2,7 @@
   height: 10%;
   border: 0;
   color: black;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 48px;
   font-weight: 600;
   line-height: 1;
@@ -12,18 +12,18 @@
 
 .about-me{
   font-size: 30px;
-  font-family: 'Raleway', sans-serif; 
+  font-family: 'Roboto Condensed', sans-serif;
   margin-right: 10%;
 }
 
 
 .contact-me{
   font-size: 30px;
-  font-family: 'Raleway', sans-serif; 
+  font-family: 'Roboto Condensed', sans-serif; 
   margin-right: 10%;
 }
 
 .blog {
   font-size: 30px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }

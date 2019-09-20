@@ -29,6 +29,18 @@
   margin: 5px;
   padding: 8%;
   
+  
+}
+
+.about-box-two{
+position: fixed;
+bottom: 0;
+display: flex;
+left: 38%;
+justify-content: space-around;
+
+
+
 }
   .box-two-contact {
     grid-row: 6 / span 3;
@@ -48,10 +60,10 @@
   grid-row: 1 / span 5;
   grid-column: 3 / span 2;
   background-image: url("../text.jpg");
-  width:x;
-  height: auto; 
+}
+
+
   
-  }
     
  .box-four {
 
