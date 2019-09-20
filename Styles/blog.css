@@ -73,3 +73,10 @@ align-items: center;
   }
 }
 
+@media screen and (max-width: 800px) {
+  .about-me {
+   height: 50%;
+    padding: 0;
+
+  }
+}

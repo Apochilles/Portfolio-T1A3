@@ -8,10 +8,23 @@
 
 }
 
+.container-about p {
+
+  font-size: 150%;
+}
+
 
 .container-contact a:visited {
   color: #EBBAB9;
   text-decoration: none;
+
+}
+  .box-two a {
+
+    text-decoration: none;
+
+  
+  }
   
 
 }

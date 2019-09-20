@@ -17,7 +17,7 @@
 }
 
 .container-about {
-  height: 70%;
+  height: 50%;
   width: 85%;
   display: flex;
   flex-direction: column;
@@ -68,8 +68,8 @@
   background: #EBBAB9;
   width: 50%;
   height: 50%;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   
   
   }
@@ -84,20 +84,27 @@
 
   .container-description {
 
-    height: 70%;
-    width: 70%;
+    height: 80%;
+    width: 80%;
+    bottom: 0;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+  
   }
 
   .container-description img {
     width: 100%;
     height: 100%;
+    height: auto;
   }
 
 
   .description{
 
-    height: 50%;
-    width: 50%;
+    height: 75%;
+    width: 75%;
     background: #EBBAB9;
     justify-content: space-between 
   }

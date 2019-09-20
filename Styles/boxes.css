@@ -40,6 +40,9 @@ font-size: 80%;
 }
 
 .about-box-two{
+width: 25%;
+height: 25;  
+margin-left: 2%;
 position: fixed;
 bottom: 0;
 display: flex;
