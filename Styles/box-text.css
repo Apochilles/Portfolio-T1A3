@@ -48,15 +48,15 @@
 }
 
 
-.box-one h1 {
+.grid-box-one h1 {
   font-size: 40px;
   height: 40%;
   font-family: 'Raleway', sans-serif; 
   padding: 12%;
  
 } 
-.box-one p {
-font-size: 30px;
+.grid-box-one p {
+font-size: 25px;
 text-align: center;
 font-family: 'Raleway', sans-serif;
 padding: 6%;
@@ -124,5 +124,10 @@ padding: 6%;
   
     .footer-box a {
       size: 300%;
+
+    }
+
+    .center-column p {
+      right: 70%
 
     }

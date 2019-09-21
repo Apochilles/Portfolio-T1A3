@@ -15,7 +15,7 @@
 }
 
 .container.side {
-  flex-direction: unset;
+  flex-direction: center;
 }
 
 .container-icon.about {
@@ -26,13 +26,14 @@
 }
 
 .container-about {
-  height: 50%;
-  width: 85%;
+  height: 100%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: flex-start;
   background: #EBBAB9;
-  margin-left: 30%;
+  /* margin-left: 30%; */
 
 
 }
@@ -55,7 +56,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  position: fix;
+  position: fixed
 
 
 }
