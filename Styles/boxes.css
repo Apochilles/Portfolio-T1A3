@@ -115,4 +115,5 @@ resize: 50%;
     flex-direction: row;
     justify-content: flex-end;
     align-items: stretch;
+    flex-grow: 1; 
   }
