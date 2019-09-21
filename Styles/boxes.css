@@ -109,3 +109,10 @@ resize: 50%;
     grid-column: 2 / span 2;
     
   }
+
+  .row-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: stretch;
+  }

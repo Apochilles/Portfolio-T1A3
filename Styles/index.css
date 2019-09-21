@@ -34,13 +34,15 @@ body {
 @media screen and (max-width: 1024px) {
   .footer-box {
        flex-direction: column;
-       height: 50%
+       height: 50%;
+       margin: 0%;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .footer-box a {
        font-size: 75%;
+       margin: 0%;
   }
 }
  
