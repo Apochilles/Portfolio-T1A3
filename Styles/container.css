@@ -56,7 +56,8 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  position: fixed
+  position: fixed;
+  padding-top: 60px;
 
 
 }
