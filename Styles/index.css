@@ -2,7 +2,7 @@
 @import "box-text.css";
 @import "boxes.css";
 @import "container.css";
-@import "sm-bar.css";
+@import "social-bar.css";
 @import "blog.css";
 
 
@@ -13,4 +13,108 @@ body {
 
 }
 
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .container-contact {
+      font-size: 85%;
+      margin: 0;
+  }
+}
+ 
+
+
+@media screen and (max-width: 1024px) {
+  .footer-box {
+       flex-direction: column;
+       height: 50%
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer-box a {
+       font-size: 75%;
+  }
+}
+ 
+
+
+@media screen and (max-width: 1024px) {
+  .footer-grid-box a {
+       font-size: 50%;
+  }
+}
+ 
+
+
+@media screen and (max-width: 667px) {
+  .footer-grid-box a { 
+       font-size: 25%;
+  }
+}
+ 
+
+
+@media screen and (max-width: 1024px) {
+  .footer a {
+       font-size: 50%;
+  }
+}
+ 
+
+@media screen and (max-width: 667px) {
+  .footer a { 
+       font-size: 36%;
+  }
+}
+ 
+
+@media screen and (max-width: 1024px) {
+  .footertwo a {
+       font-size: 40%;
+  }
+}
+ 
+
+@media screen and (max-width: 667px) {
+  .footertwo a { 
+       font-size: 23%;
+  }
+}
+ 
+@media screen and (max-width: 1024px) {
+  .container-about {
+       width: 50%;
+       height: 50%;
+  }
+}
+ 
+
+@media screen and (max-width: 667px) {
+  .container-about {
+    width: 60%;
+    height: 50%;
+  }
+}
+ 
+@media screen and (max-width: 667px) {
+  .container-about h1 {
+    font-size: 70%;
+  }
+}
+ 
+
+@media screen and (max-width: 667px) {
+  .container-about p {
+    font-size: 60%;
+  }
+}
+ 
 

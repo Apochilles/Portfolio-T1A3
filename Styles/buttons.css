@@ -11,19 +11,37 @@
 }
 
 .about-me{
-  font-size: 30px;
+  font-size: 300%;
   font-family: 'Roboto Condensed', sans-serif;
-  margin-right: 10%;
+  margin-right: 5%;
+
 }
 
 
 .contact-me{
-  font-size: 30px;
+  font-size:  300%;
   font-family: 'Roboto Condensed', sans-serif; 
-  margin-right: 10%;
+  margin-right: 5%;
 }
 
+
+
 .blog {
-  font-size: 30px;
+  font-size:  300%;
   font-family: 'Roboto Condensed', sans-serif;
+  margin-right: 5%;
+}
+
+.index {
+  font-size: 300%;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-right: 5%;
+
+}
+
+.portfolio {
+  font-size: 300%;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-right: 5%;
+
 }
