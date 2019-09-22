@@ -1,12 +1,11 @@
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
+.card {
 
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 60%;
+}
 
-
-
-
-/* Fake image */
 .card .img {
   width: 100%;
   padding: 20px; 
@@ -20,43 +19,12 @@
 }
 
 /* Add a card effect for articles */
-.card {
-
-  padding: 20px;
-  margin-top: 20px;
-  max-width: 60%;
-}
-
-.card img {
+img {
   width: inherit;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
-}
-
-/* Footer */
-.footer {
-
-  width: 100%;
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  
-}
-
-.footertwo {
-
-  width: 100%;
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  
-}
+} 
