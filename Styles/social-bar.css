@@ -45,7 +45,12 @@
  a:visited {
   color: black;
 
-}
+ }
+
+ a:un-visited {
+color: black;
+
+ }
 
 .navbar-logo-two {
   height: 200px;
