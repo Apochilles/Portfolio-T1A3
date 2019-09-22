@@ -4,6 +4,7 @@
 @import "Navbar.css";
 @import "blog.css";
 
+      /* Determines global body font and size  */
 
 body {
   font-family: 'Raleway', sans-serif; 
@@ -13,11 +14,15 @@ body {
 
 }
 
+     /* Determines global header font, size and color  */
+
 header {
   padding: 5%;
   text-align: center;
   background: #EBBAB9;
 }
+
+     /* Maintains that a links stay black even after being clicked  */
 
 
 a, a:visited {
@@ -27,7 +32,8 @@ a, a:visited {
 
  
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive layouts - */
+
 @media screen and (max-width: 800px) {
   .center-column {
     width: 100%;

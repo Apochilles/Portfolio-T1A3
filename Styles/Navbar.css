@@ -1,6 +1,8 @@
+  /* Social bar flex properties on the index page  */
+
+
 .social-bar {
   width: 20%;
-  /* height: 100%; */
   align-self: flex-end;
   position: fixed;
   display: flex;
@@ -9,16 +11,19 @@
  
 }
 
+  /* Social bar flex properties on the about me page  */
 
 
 .social-bar-two {
   width: 20%;
-  /* height: 100%; */
   align-self: flex-end;
   display: flex;
   flex-direction: column;
  
 }
+
+  /* Social bar Github logo properties  */
+
 
 .navbar-logo {
   color: black;
@@ -29,7 +34,7 @@
   align-items: center;
 }
 
- 
+  /* Social bar Twitter logo properties  */
 
 .navbar-logo-two {
   height: 200px;
@@ -39,6 +44,8 @@
   align-items: center;
 }
 
+  /* Social bar Linkedin logo properties  */
+
 
 .navbar-logo-three {
   height: 225px;
@@ -47,42 +54,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-
-.navbar-link:hover {
-  transform: scale(1.1)
-}
-
-  
-.footer {
-
-  width: 100%;
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  
-}
-
-.footertwo {
-
-  width: 100%;
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  
-}
-
-.footer-grid-box > div,
-.footertwo > div,
-.footer-box > div,
-.footer > div {
-  font-size: 200%;
-  font-family: 'Roboto Condensed', sans-serif;
-  padding: 3%;
-  margin-bottom: 1%
 }

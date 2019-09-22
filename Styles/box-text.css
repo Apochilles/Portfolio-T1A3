@@ -1,136 +1,80 @@
-.container-contact h1 {
-  font-size: 400%;
-  font-family: 'Roboto Condensed', sans-serif;
-  color: #EBBAB9;
-  font-weight: 500;
-  text-align: center; 
-  margin: 0.75%;
+/* Determines Font properties in the content of the Contact Page   */
 
+.container-contact h1 {
+    font-size: 400%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #EBBAB9;
+    font-weight: 500;
+    text-align: center;
+    margin: 0.75%;
 }
 
 .container-contact h1 a {
-  color: #EBBAB9;
-
-
-
+    color: #EBBAB9;
 }
 
 .box-two-contact p {
-  text-decoration: none;
+    text-decoration: none;
 }
 
+
+/* Keeps links in the Contact page pink regardless of whether they have been clicked or not */
 
 .container-contact a:visited {
-  color: #EBBAB9;
-  text-decoration: none;
-
+    color: #EBBAB9;
+    text-decoration: none;
 }
+
+
+/* Determines paragraph font size in the aboutme page   */
 
 .container-about p {
-  font-size: 150%;
+    font-size: 150%;
 }
 
-  .box-two a {
+/* Determines box-two a links don't change color   */
 
+
+.box-two a {
     text-decoration: none;
-  }
-  
+}
+
+/* Determines about me page header and paragraph font properties   */
 
 .about h1 {
-  font-size: 10px;
-  font-family: 'Raleway', sans-serif; 
-  margin: 30px;
-
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+    margin: 30px;
 }
+
 
 .about p {
-  font-family: 'Raleway', sans-serif;
-  font-size: 5px;  
-
-
+    font-family: 'Raleway', sans-serif;
+    font-size: 5px;
 }
+
+/* Determines grid-box-one header and paragraph font properties in the index page   */
 
 
 .grid-box-one h1 {
-  font-size: 30px;
-  height: 20%;
-  font-family: 'Raleway', sans-serif; 
-  padding: 12%;
- 
-} 
+    font-size: 30px;
+    height: 20%;
+    font-family: 'Raleway', sans-serif;
+    padding: 12%;
+}
+
 .grid-box-one p {
-font-size: 25px;
-text-align: center;
-font-family: 'Raleway', sans-serif;
-padding: 12%;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 12%;
+}
 
+/* Determines a link size for text within the footer-box on multiple pages */
 
+.footer-box a {
+    size: 300%;
 }
 
 
 
-
-
-.box-two h  {
-  font-size: 30px;
-  }
-  
-  .box-two p {
-  font-size: 25px;
-  text-align: center;
-
-  
-  
-  }
-  
-  
-  
-  
-  .box-three h1 {
-  font-size: 10px;
-  }
-  
-  .box-three p {
-  font-size: 25px;
-  text-align: center;
-  
-  
-  }
-  
-    
-  
-  
-  
-  .box-four h {
-  font-size: 10px;
-  }
-  
-  .box-four p {
-  font-size: 25px;
-  text-align: center;
-  
-  
-  }
-  
-  
-  
-    .box-five h {
-    font-size: 15px;
-    }
-    
-    .box-five p {
-      font-size: 15px;
-      text-align: center;
-  
-    
-    }
-  
-    .footer-box a {
-      size: 300%;
-
-    }
-
-    .center-column p {
-      right: 70%
-
-    }

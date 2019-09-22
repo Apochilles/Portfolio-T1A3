@@ -5,12 +5,12 @@ Repo link: https://github.com/Apochilles/Portfolio-T1A3
 published portfolio website: https://modest-bose-9e8e7a.netlify.com
 
 ##  Description of my portfolio website:
-My portfolio website is an online hub that shows off my personality and professional achievements thus far. 
+My portfolio website is an online hub that shows off my personality and professional achievements. 
   
 ## Purpose
-My portfolio website was created to give me a strong internet presence as a developer. In this age of social media it is incredibly important to keep up your online so to have a hub containin your work and personality is extremely important. 
+My portfolio website was created to give me a strong internet presence as a developer. In this age of social media it is incredibly important to keep up your online presence so to have a hub containing your work and personality is extremely important. 
  ### Functionality / features
- My website operates on a clean and simple display. I have a social media navbar and a footer that is repeated throughout my webpage for consistant ... I also have short and stabby paragraphs that and links to my other work up to this point.  
+ My website operates on a clean and simple display. I have a social media navbar and a footer that is repeated throughout my webpage for consistency. I also keep the paragraphs short and to the point.
  ###  Sitemap
 ![alt text](Sitemap.png "Title")
  ### Screenshots
