@@ -1,9 +1,8 @@
-@import "buttons.css";
-@import "box-text.css";
-@import "boxes.css";
-@import "container.css";
+@import "Text.css";
+@import "Boxes.css";
+@import "Container.css";
 @import "Navbar.css";
-@import "blog.css";
+@import "Blog.css";
 
 
 body {
@@ -25,6 +24,10 @@ a, a:visited {
   color: black;
 
  }
+
+ img {
+  width: inherit;
+}
 
  
 
