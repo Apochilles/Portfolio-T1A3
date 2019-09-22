@@ -7,8 +7,11 @@
   position: fixed;
   display: flex;
   flex-direction: column;
+  color: black;
  
 }
+
+
 
 .social-bar-two {
   width: 20%;
@@ -42,15 +45,7 @@
   align-items: center;
 }
 
- a:visited {
-  color: black;
-
- }
-
- a:un-visited {
-color: black;
-
- }
+ 
 
 .navbar-logo-two {
   height: 200px;

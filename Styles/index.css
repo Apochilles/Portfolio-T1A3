@@ -13,6 +13,13 @@ body {
 
 }
 
+a, a:visited {
+  color: black;
+
+ }
+
+ 
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .center-column {
@@ -80,17 +87,17 @@ body {
 
 @media screen and (max-width: 1024px) {
   .footertwo a {
-       font-size: 40%;
+       font-size: 60%;
   }
 }
  
 
 @media screen and (max-width: 667px) {
   .footertwo a { 
-       font-size: 23%;
+       font-size: 50%;
   }
 }
- 
+/*  
 @media screen and (max-width: 1024px) {
   .container-about {
       flex-direction: column;
@@ -102,7 +109,7 @@ body {
 @media screen and (max-width: 667px) {
   .container-about {
     height: 100%;
-  }
+  } */
 }
  
 @media screen and (max-width: 667px) {
@@ -111,13 +118,22 @@ body {
   }
 }
  
+ 
 
 @media screen and (max-width: 667px) {
+  .profilepic {
+    margin: auto;
+    width: 75%;
+    float: none;
+  }
+
   .container-about p {
-    font-size: 60%;
+
+    font-size: 100%
   }
 }
- 
+
+  
 
 
 
