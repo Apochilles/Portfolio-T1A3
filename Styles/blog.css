@@ -5,7 +5,7 @@ body {
 }
 
 /* Header/Blog Title */
-.header {
+header {
   padding: 5%;
   text-align: center;
   background: #EBBAB9;
@@ -51,9 +51,9 @@ body {
 }
 
 /* Fake image */
-.fakeimg {
+.card .fakeimg {
   width: 100%;
-  padding: 20px;
+  padding: 20px; 
 }
 
 .profilepic {

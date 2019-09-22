@@ -57,7 +57,7 @@ a, a:visited {
 
 @media screen and (max-width: 1024px) {
   .footer-grid-box a {
-       font-size: 75%;
+       font-size: 80%;
   }
 }
  
@@ -65,7 +65,7 @@ a, a:visited {
 
 @media screen and (max-width: 667px) {
   .footer-grid-box a { 
-       font-size: 26%;
+       font-size: 45%;
   }
 }
  
@@ -110,7 +110,7 @@ a, a:visited {
   .container-about {
     height: 100%;
   } */
-}
+/* } */
  
 @media screen and (max-width: 667px) {
   .container-about h1 {
