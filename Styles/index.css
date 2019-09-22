@@ -14,7 +14,7 @@ body {
 
 }
 
-     /* Determines global header font, size and color  */
+   /* Determines global header font, size and color  */
 
 header {
   padding: 5%;
@@ -32,8 +32,7 @@ a, a:visited {
 
  
 
-/* Responsive layouts - */
-
+/* Responsive layout - */
 @media screen and (max-width: 800px) {
   .center-column {
     width: 100%;
